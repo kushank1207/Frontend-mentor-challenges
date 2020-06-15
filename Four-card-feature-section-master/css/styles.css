@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-family: Poppins, sans-serif;
+  font-size: 0.9375rem;
+}
+
+p {
+  color: hsl(229, 6%, 66%);
+}
+
+.bottom-head {
+  color: hsl(234, 12%, 34%);
+}
+
+h3 {
+  color: hsl(234, 12%, 34%)
+}
+
+img {
+  display: flex;
+  align-self: flex-end;
+}
+
+.upper-part {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.top-head {
+  font-weight: normal;
+  color: hsl(229, 6%, 66%);
+  margin-bottom: 0;
+}
+
+.bottom-head {
+  margin-top: 0;
+}
+
+@media screen and (max-width:500px) {
+  .p-top {
+    padding: 0 0.9375rem 0
+  }
+
+  .main-part {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .supervisor {
+    display: flex;
+    flex-direction: column;
+    border-top: 0.1875rem solid;
+    border-color: hsl(180, 62%, 55%);
+    box-shadow: 0 0.25rem 0.75rem 0 hsl(229, 6%, 66%);
+    transition: 0.3s;
+    border-radius: 0.3125rem;
+    margin-left: 1.875rem;
+    margin-right: 1.875rem;
+    margin-top: 3.125rem;
+    padding: 1.25rem;
+  }
+
+  .calculator {
+    display: flex;
+    flex-direction: column;
+    border-top: 0.1875rem solid;
+    border-color: hsl(212, 86%, 64%);
+    box-shadow: 0 0.25rem 0.75rem 0 hsl(229, 6%, 66%);
+    transition: 0.3s;
+    border-radius: 5px;
+    padding: 1.25rem;
+    margin-bottom: 6.25rem;
+    margin-top: 1.875rem;
+    margin-left: 1.875rem;
+    margin-right: 1.875rem;
+  }
+
+  .team-builder {
+    display: flex;
+    flex-direction: column;
+    border-top: 0.1875rem solid;
+    border-color: hsl(0, 78%, 62%);
+    box-shadow: 0 0.25rem 0.75rem 0 hsl(229, 6%, 66%);
+    transition: 0.3s;
+    border-radius: 0.3125rem;
+    margin-top: 1.875rem;
+    margin-left: 1.875rem;
+    margin-right: 1.875rem;
+    padding: 1.25rem;
+  }
+
+  .karma {
+    display: flex;
+    flex-direction: column;
+    border-top: 0.1875rem solid;
+    border-color: hsl(34, 97%, 64%);
+    box-shadow: 0 0.25rem 0.75rem 0 hsl(229, 6%, 66%);
+    transition: 0.3s;
+    border-radius: 0.3125rem;
+    margin-top: 1.875rem;
+    margin-left: 1.875rem;
+    margin-right: 1.875rem;
+    padding: 1.25rem;
+  }
+}
+
+@media screen and (min-width:500px) {
+  .p-top {
+    padding: 0 28.125rem 0
+  }
+
+  .main-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .supervisor {
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem;
+    width: 20%;
+    border-top: 0.1875rem solid;
+    border-color: hsl(180, 62%, 55%);
+    box-shadow: 0 0.25rem 0.75rem 0 hsl(229, 6%, 66%);
+    transition: 0.3s;
+    border-radius: 0.3125rem;
+  }
+
+  .calculator {
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem;
+    width: 20%;
+    border-top: 0.1875rem solid;
+    border-color: hsl(212, 86%, 64%);
+    box-shadow: 0 0.25rem 0.75rem 0 hsl(229, 6%, 66%);
+    transition: 0.3s;
+    border-radius: 0.3125rem;
+  }
+
+  .center {
+    width: 25%;
+  }
+
+  .team-builder {
+    display: flex;
+    flex-direction: column;
+    border-top: 0.1875rem solid;
+    border-color: hsl(0, 78%, 62%);
+    padding: 1.25rem;
+    margin: 6.25rem 5% 5% 5%;
+    box-shadow: 0 0.25rem 0.75rem 0 hsl(229, 6%, 66%);
+    transition: 0.3s;
+    border-radius: 0.3125rem;
+  }
+
+  .karma {
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem;
+    margin: 5% 5% 6.25rem;
+    border-top: 0.1875rem solid;
+    border-color: hsl(34, 97%, 64%);
+    box-shadow: 0 0.25rem 0.75rem 0 hsl(229, 6%, 66%);
+    transition: 0.3s;
+    border-radius: 0.3125rem;
+  }
+}
