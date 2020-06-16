@@ -251,6 +251,11 @@ footer {
     margin-right: 3%;
   }
 
+  #features .grow-together, #features .your-users {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
   #features .community-box h4 {
     font-size: 1rem;
   }
@@ -274,6 +279,9 @@ footer {
 
   footer {
     font-size: 12px;
-    right: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 }
