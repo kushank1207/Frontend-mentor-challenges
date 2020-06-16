@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  padding-left: 165px;
+}
+
+/* navbar */
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 165px;
+  padding-top: 65px;
+}
+
+.navbar-content {
+
+}
