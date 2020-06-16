@@ -7,6 +7,8 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Project tracking intro component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -24,32 +26,38 @@
 
 <body>
   <section class="container">
-    <div class="navbar flex-row">
-      <img src="./images/logo.svg" alt="">
-      <div class="navbar-content flex-row">
-        <p class="nav-dark">Product</p>
-        <p class="nav-dark">Features</p>
-        <p class="nav-dark">Pricing</p>
-        <p class="nav-light">●</p>
-        <p class="nav-light">Login</p>
-      </div>
-    </div>
+    <div class="">
 
-    <div class="content">
 
-      <div class="left-side">
-        <p class="">New</p>
-        <p>Monograph Dashboard</p>
-        <p class="content-h">Powerful insights into your team</p>
-        <p class="content-p">Project planning and time tracking for agile teams</p>
-        <div class="btn">
-          <button type="button" name="button">Schedule a demo</button>
-          <p class="btn-p">to see a live preview</p>
+      <div class="navbar flex-row">
+        <img src="./images/logo.svg" alt="">
+        <div class="navbar-cta flex-row heading">
+          <p class="nav-dark">Product</p>
+          <p class="nav-dark">Features</p>
+          <p class="nav-dark">Pricing</p>
+          <p class="nav-light">●</p>
+          <p class="nav-light">Login</p>
         </div>
       </div>
 
-      <div class="right-side">
-        <img src="./images/illustration-devices.svg" alt="">
+      <div class="content flex-row">
+        <div class="left-side">
+          <div class="flex-row heading">
+            <p class="pill">New</p>
+            <p class="pill-p">Monograph Dashboard</p>
+          </div>
+
+          <p class="content-h heading">Powerful insights into your team</p>
+          <p class="content-p">Project planning and time tracking for agile teams</p>
+          <div class="btn flex-row heading">
+            <button type="button" name="button">Schedule a demo</button>
+            <p class="btn-p">to see a live preview</p>
+          </div>
+        </div>
+
+        <div class="right-side">
+          <img class="img-device" src="./images/illustration-devices.svg" alt="">
+        </div>
       </div>
     </div>
 

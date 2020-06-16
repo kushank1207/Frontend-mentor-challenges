@@ -3,6 +3,16 @@
   padding: 0;
 }
 
+body {
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+}
+
+.heading, button {
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
 .flex-row {
   display: flex;
   flex-direction: row;
@@ -10,6 +20,10 @@
 
 .container {
   padding-left: 165px;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
 
 /* navbar */
@@ -17,9 +31,55 @@
   justify-content: space-between;
   align-items: center;
   padding-right: 165px;
-  padding-top: 65px;
+  padding-bottom: 120px;
 }
 
-.navbar-content {
+.navbar-content {}
 
+.navbar-cta {
+  letter-spacing: 1px;
+}
+
+.nav-dark {
+  font-weight: 700;
+  padding: 0 20px;
+}
+
+.nav-light {
+  font-weight: 700;
+  color: hsl(231, 7%, 65%);
+  padding: 0 20px;
+}
+
+/* content */
+.img-device {
+  background-size: cover;
+  position: relative;
+  right: -265px
+}
+
+.pill {
+  border-radius: 50px;
+  width: 50px;
+  height: 25px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  margin-right: 15px;
+  margin-bottom: 28px;
+}
+
+.pill-p, .btn-p {
+  color: hsl(231, 7%, 65%);
+}
+
+button {
+  width: 185px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  background-color: hsl(0, 100%, 68%);
+  border: 0;
+  border-radius: 5px;
 }
