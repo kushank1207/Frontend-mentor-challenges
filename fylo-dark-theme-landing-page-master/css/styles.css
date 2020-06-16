@@ -163,7 +163,6 @@ body .container-fluid {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 236%;
   z-index: 1;
 }
 
