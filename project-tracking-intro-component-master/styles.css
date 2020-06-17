@@ -95,7 +95,7 @@ body {
 }
 
 .bg-content {
-  position: fixed;
+  position: absolute;
   z-index: 1;
   right: -265px;
 }
