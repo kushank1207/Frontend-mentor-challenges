@@ -26,9 +26,6 @@ body {
 
 .container {
   padding-left: 165px;
-  display: flex;
-  min-height: 100vh;
-  align-items: center;
   overflow: hidden;
 }
 
@@ -36,11 +33,10 @@ body {
 .navbar {
   justify-content: space-between;
   align-items: center;
+  padding-top: 60px;
   padding-right: 165px;
   padding-bottom: 120px;
 }
-
-.navbar-content {}
 
 .navbar-cta {
   letter-spacing: 1px;
@@ -87,24 +83,31 @@ body {
 
 .bg-content {
   background-image: url(./images/illustration-devices.svg);
-  background-position: right;
+  background-position: left;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: auto 100%;
   width: 100%;
 }
 
 .content-h {
-  font-size: 72px;
+  font-size: 70px;
   font-weight: 700;
-  margin-top: 28px;
+  padding-top: 28px;
+  padding-bottom: 40px;
 }
 
 .content-p {
   color: hsl(230, 11%, 40%);
+  padding-bottom: 60px;
 }
 
 .btn {
   align-items: center;
+}
+
+.btn-p {
+  padding-left: 23px;
+  letter-spacing: 2px;
 }
 
 button {
@@ -116,4 +119,9 @@ button {
   background-color: hsl(0, 100%, 68%);
   border: 0;
   border-radius: 5px;
+}
+
+.color-section {
+  background-color: hsl(207, 33%, 95%);
+  width: 700px;
 }
