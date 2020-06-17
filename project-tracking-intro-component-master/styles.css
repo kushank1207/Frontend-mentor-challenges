@@ -146,6 +146,7 @@ button:hover {
   opacity: 0.7;
   cursor: pointer;
 }
+
 .color-section {
   background-color: hsl(207, 33%, 95%);
   width: 700px;
