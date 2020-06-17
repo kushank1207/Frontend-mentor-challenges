@@ -19,12 +19,16 @@ body {
   flex-direction: row;
 }
 
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
 .container {
   padding-left: 165px;
   display: flex;
   min-height: 100vh;
   align-items: center;
-  justify-content: center;
   overflow: hidden;
 }
 
@@ -54,10 +58,13 @@ body {
 }
 
 /* content */
-.img-device {
+/* .img-device {
   background-size: contain;
   position: relative;
   right: -265px
+} */
+.pills {
+  align-items: center;
 }
 
 .pill {
@@ -68,7 +75,6 @@ body {
   color: #fff;
   text-align: center;
   margin-right: 15px;
-  margin-bottom: 28px;
 }
 
 .pill-p {
@@ -79,13 +85,26 @@ body {
   color: hsl(231, 7%, 65%);
 }
 
+.bg-content {
+  background-image: url(./images/illustration-devices.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+}
+
 .content-h {
   font-size: 72px;
   font-weight: 700;
+  margin-top: 28px;
 }
 
 .content-p {
   color: hsl(230, 11%, 40%);
+}
+
+.btn {
+  align-items: center;
 }
 
 button {
