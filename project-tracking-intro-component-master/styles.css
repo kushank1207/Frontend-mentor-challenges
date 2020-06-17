@@ -26,6 +26,8 @@ body {
 
 .container {
   padding-left: 165px;
+  min-height: 100vh;
+  margin: 0 auto;
   overflow: hidden;
 }
 
@@ -40,6 +42,8 @@ body {
 
 .navbar-cta {
   letter-spacing: 1px;
+  position: relative;
+  z-index: 1;
 }
 
 .nav-dark {
@@ -87,6 +91,9 @@ body {
   background-repeat: no-repeat;
   background-size: auto 100%;
   width: 100%;
+  position: relative;
+  z-index: 1;
+  right: -195px
 }
 
 .content-h {
@@ -124,4 +131,9 @@ button {
 .color-section {
   background-color: hsl(207, 33%, 95%);
   width: 700px;
+  height: 425px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0 0 0 66px;
 }
