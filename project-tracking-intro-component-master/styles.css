@@ -275,6 +275,8 @@ button:hover {
 
   .content-h {
     font-size: 40px;
+    padding-bottom: 25px;
+    padding-top: 24px;
   }
 
   .content-p {
