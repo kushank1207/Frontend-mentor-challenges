@@ -26,12 +26,23 @@
 
 <body>
   <section class="container">
+
     <div class="">
 
+      <!-- navbar -->
       <div class="navbar">
 
-        <img src="./images/logo.svg" alt="">
-        <img class="hamburger-img" src="./images/icon-hamburger.svg" alt="">
+        <div class="navbar-content">
+          <div class="">
+            <img class="logo" src="./images/logo.svg" alt="">
+          </div>
+          <div id="hamburger" class="">
+            <img class="hamburger-img" src="./images/icon-hamburger.svg" alt="">
+          </div>
+          <div id="close" class="">
+            <img class="close-img" src="./images/icon-close.svg" alt="">
+          </div>
+        </div>
 
         <div class="navbar-cta heading">
           <p class="nav-dark">Product</p>
@@ -40,10 +51,29 @@
           <p class="dot">●</p>
           <p class="nav-light">Login</p>
         </div>
+
+        <!-- dropdown -->
+
+
       </div>
 
-      <div class="content ">
+      <div  class="dropdown-container">
 
+
+        <div id="dropdown" class="dropdown">
+          <p class="dropdown-btn dropdown-btn-1">PRODUCT</p>
+          <p class="dropdown-btn">FEATURES</p>
+          <p class="dropdown-btn">PRICING</p>
+          <hr>
+          <p class="dropdown-btn-light">LOGIN</p>
+        </div>
+      </div>
+
+
+      <!-- content -->
+      <div class="content">
+
+        <!-- main -->
         <div class="main">
           <div class="pills heading">
             <p class="pill">New</p>
@@ -58,6 +88,7 @@
         </div>
 
 
+        <!-- bg-image -->
         <div class="bg-content">
           <img src="./images/illustration-devices.svg" alt="">
         </div>
@@ -65,6 +96,8 @@
 
       </div>
 
+
+      <!-- grey section -->
       <div class="color-section"></div>
     </div>
 
@@ -75,6 +108,7 @@
     </p>
   </footer> -->
   </section>
+  <script src="main.js" charset="utf-8"></script>
 </body>
 
 </html>

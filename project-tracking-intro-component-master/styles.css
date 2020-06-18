@@ -22,6 +22,10 @@ body {
   overflow: hidden;
 }
 
+.dropdown {
+  display: none;
+}
+
 /* navbar */
 .navbar {
   display: flex;
@@ -31,7 +35,15 @@ body {
   padding: 60px 165px 130px 0;
 }
 
+.hamburger-img:hover, .close-img:hover {
+  cursor: pointer;
+}
+
 .hamburger-img {
+  display: none;
+}
+
+.close-img {
   display: none;
 }
 
@@ -95,7 +107,7 @@ body {
 }
 
 .bg-content {
-  position: absolute;
+  position: fixed;
   z-index: 1;
   right: -265px;
 }
@@ -162,23 +174,75 @@ button:hover {
     display: none;
   }
 
-  .hamburger-img {
+  .hamburger-img, .close-img {
     display: flex;
     position: relative;
     z-index: 1;
   }
 
-  .hamburger-img {
-    cursor: pointer;
+  #close {
+    display: none;
   }
 
   .container {
-    padding-left: 30px;
+    padding-left: 32px;
+  }
+
+  .logo {
+    width: 23px;
+    height: 23px;
+  }
+
+  .dropdown {
+    display: none;
+    flex-direction: column;
+    font-size: 16px;
+    width: 311px;
+    height: 233px;
+    background-color: #fff;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    z-index: 2;
+  }
+
+  .dropdown-btn, .dropdown-btn-light {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+  }
+
+  .dropdown-btn {
+    padding-bottom: 27px;
+  }
+
+  .dropdown-btn-1 {
+    padding-top: 27px;
+  }
+
+  hr {
+    width: 80%;
+  }
+
+  .dropdown-btn-light {
+    padding: 23px 0;
+    color: hsl(231, 7%, 65%);
   }
 
   /* navbar */
   .navbar {
-    padding: 40px 30px 64px 0;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 34px 60px 0;
+    align-items: normal
+  }
+
+  .navbar-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
   }
 
   /* content */
@@ -196,7 +260,6 @@ button:hover {
 
   .main {
     padding-top: 85px;
-    padding-right: 45px;
     width: 100%;
   }
 
@@ -207,7 +270,7 @@ button:hover {
   .bg-content img {
     position: relative;
     height: 240px;
-    right: 285px;
+    right: 287px;
   }
 
   .content-h {
