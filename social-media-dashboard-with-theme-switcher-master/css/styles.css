@@ -24,7 +24,7 @@ body {
 }
 
 .container {
-  padding: 0 163px;
+  padding: 0 24px;
   position: relative;
   top: -110px;
 }
@@ -133,6 +133,121 @@ body {
   color: hsl(228, 12%, 44%);
 }
 
+/* slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked+.slider {
+  background-color: #2196F3;
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
 @media (max-width: 767px) {
-  
+  .heading {
+    padding-bottom: 24px;
+  }
+
+  .heading-top {
+    font-size: 27px;
+    font-weight: 700;
+    padding-bottom: 12px;
+  }
+
+  .header {
+    flex-direction: column;
+    padding: 40px 24px;
+    background-color: hsl(225, 100%, 98%);
+    align-items: center;
+  }
+
+  .container {
+    padding: 0 24px;
+    top: -40px;
+  }
+
+  .s1, .s2r1, .s2r2, .s2h {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .s1B, .s2B {
+    width: 327px;
+  }
+
+  .s2B, .s1B {
+    margin-bottom: 20px;
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .r1B4 {
+    margin-bottom: 0;
+  }
+
+  .s2h {
+    margin-top: 30px;
+  }
+
+  .toggle {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    border-top: 1px solid hsl(228, 12%, 44%);
+  }
 }
