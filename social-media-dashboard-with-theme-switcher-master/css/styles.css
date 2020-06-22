@@ -23,11 +23,15 @@ body {
   align-items: center;
 }
 
-
 .container {
   padding: 0 163px;
   position: relative;
   top: -110px;
+}
+
+.heading-top {
+  font-size: 28px;
+  font-weight: 700;
 }
 
 .header {
@@ -40,10 +44,15 @@ body {
   flex-direction: column;
 }
 
-.flex-row, .s1, .s2r1, .s2r2, .header {
+.flex-row, .flex-end, .s1, .s2r1, .s2r2, .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.flex-end {
+  align-items: flex-end;
+  padding-top: 25px;
 }
 
 .s1B {
@@ -106,9 +115,24 @@ body {
   height: 45px;
 }
 
+.sub-heading {
+  font-size: 14px;
+  font-weight: 700;
+  color: hsl(228, 12%, 44%);
+}
+
+.s2No {
+  font-size: 32px;
+  font-weight: 700;
+}
+
 .uppercase {
   text-transform: uppercase;
   letter-spacing: 4px;
   font-size: 14px;
   color: hsl(228, 12%, 44%);
+}
+
+@media (max-width: 767px) {
+  
 }
