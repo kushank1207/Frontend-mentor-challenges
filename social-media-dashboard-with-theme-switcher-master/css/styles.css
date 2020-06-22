@@ -148,8 +148,8 @@ label {
 .switch {
   position: relative;
   display: inline-block;
-  width: 60px;
-  height: 34px;
+  width: 50px;
+  height: 25px;
 }
 
 .switch input {
@@ -173,17 +173,17 @@ label {
 .slider:before {
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
+  height: 20px;
+  width: 20px;
+  left: 0;
+  bottom: 11%;
   background-color: white;
   -webkit-transition: .4s;
   transition: .4s;
 }
 
 input:checked+.slider {
-  background-color: #2196F3;
+  background-color: hsl(230, 22%, 74%);
 }
 
 input:focus+.slider {
@@ -198,7 +198,7 @@ input:checked+.slider:before {
 
 /* Rounded sliders */
 .slider.round {
-  border-radius: 34px;
+  border-radius: 22px;
 }
 
 .slider.round:before {
@@ -252,11 +252,9 @@ input:checked+.slider:before {
   }
 
   .toggle {
-    width: 100%;
-    display: flex;
+    width: 327px;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     padding-top: 15px;
     padding-bottom: 40px;
     border-top: 1px solid hsl(228, 12%, 44%);
