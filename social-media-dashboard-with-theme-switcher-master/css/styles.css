@@ -150,11 +150,13 @@ label {
   font-size: 14px;
   color: hsl(228, 12%, 44%);
 }
+
 /* hover */
 .s1B:hover, .s2B:hover {
   background-color: hsl(230, 22%, 74%);
   cursor: pointer;
 }
+
 /* slider */
 .switch {
   position: relative;
@@ -216,6 +218,28 @@ input:checked+.slider:before {
   border-radius: 50%;
 }
 
+/* dark */
+.top-bg {
+  background-color: hsl(232, 19%, 15%);
+}
+
+.dark-bg {
+  background-color: hsl(230, 17%, 14%);
+}
+
+.card-bg {
+  background-color: hsl(228, 28%, 20%);
+}
+
+.card-bg:hover {
+  background-color:
+}
+
+.white {
+  color: #fff;
+}
+
+/* ...... */
 @media (max-width: 767px) {
   .heading {
     padding-bottom: 24px;
