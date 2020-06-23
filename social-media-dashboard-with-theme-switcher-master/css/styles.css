@@ -53,6 +53,7 @@ body {
 .heading-top {
   font-size: 28px;
   font-weight: 700;
+  color: var(--font-color-head);
 }
 
 .header {
@@ -103,6 +104,17 @@ label {
   border-radius: 5px;
   margin: 0 30px 50px 0;
   padding: 28px 0 23px;
+}
+
+.s1B-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.s1B-head img {
+  padding-right: 5px;
 }
 
 .s1B1 {
