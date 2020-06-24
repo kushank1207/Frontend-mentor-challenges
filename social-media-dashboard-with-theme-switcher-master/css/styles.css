@@ -22,10 +22,7 @@
 
 body {
   font-family: 'Inter', sans-serif;
-}
-
-.all-content {
-  background-color: var(--bg-all);
+    background-color: var(--bg-all);
 }
 
 .green {
