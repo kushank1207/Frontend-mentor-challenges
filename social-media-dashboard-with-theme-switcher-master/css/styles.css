@@ -23,7 +23,7 @@
 
 body {
   font-family: 'Inter', sans-serif;
-    background-color: var(--bg-all);
+  background-color: var(--bg-all);
 }
 
 .green {
@@ -186,6 +186,10 @@ label {
   letter-spacing: 4px;
   font-size: 12px;
   color: var(--font-color);
+}
+
+.s1B .green img, .s1B .red img, .s2B .green img, .s2B .red img {
+  margin-right: 4px;
 }
 
 /* hover */
