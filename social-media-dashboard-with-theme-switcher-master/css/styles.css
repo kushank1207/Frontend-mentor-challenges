@@ -26,6 +26,13 @@ body {
   background-color: var(--bg-all);
 }
 
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
 .green {
   color: hsl(163, 72%, 41%);
   font-weight: 700;
